@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>চীনা গল্পের ভাণ্ডার</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FFD54F">
+    <!-- বাংলা ফন্টের জন্য -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- হেডার সেকশন -->
+    <header class="app-header">
+        <div class="logo-icon">📖</div>
+        <h1>চীনা গল্পের ভাণ্ডার</h1>
+    </header>
+
+    <!-- গল্পের তালিকা থাকবে এখানে -->
+    <main class="container" id="story-grid">
+        <!-- জাভাস্ক্রিপ্ট দিয়ে এখানে গল্প লোড হবে -->
+    </main>
+
+    <!-- গল্প পড়ার পপআপ বক্স (Modal) -->
+    <div id="story-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="story-icon-large" id="modal-icon"></div>
+            <h2 id="modal-title"></h2>
+            <div class="story-body">
+                <p id="modal-story"></p>
+                <div class="moral-box">
+                    <strong>শিক্ষা:</strong> <span id="modal-moral"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
